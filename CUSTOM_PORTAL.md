@@ -1,6 +1,6 @@
 # 🍍 WiFi Pineapple Evil Portal Creation Guide 🍍
 
-## ⚠ Prerequisites  
+## 📌 Prerequisites  
 Ensure you’ve installed and configured the Evil Portal module. For complete instructions, refer to the main [README.md](README.md).
 
 ---
@@ -50,7 +50,7 @@ nano helper.php
 Paste contents from: [helper.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Scripts/helper.php)  
 This is a plug and play for all future portals.
 
-Essential:
+### Essential:
 Edit the .ep file to match your portal's directory name exactly.
 For Example, if your portal directory is:
 `/sd/portals/hooli-login`
@@ -67,13 +67,13 @@ This is a plug and play for all future portals.
 
 ---
 
-## 📁 **Create Assets Directory**  
+## 📁 Create Assets Directory  
 ```bash
 mkdir -p assets/img
 ```
 ---
 
-## 🖼 **Place Logo or Other Images**  
+## 🖼 Place Logo or Other Images  
 
 Ensure your images are saved as `.png` files.
 
@@ -85,7 +85,7 @@ scp logo.png root@172.16.42.1:/path/to/portalname/assets/img/
 ```bash
 cp /current/location/logo.png /path/to/portalname/assets/img/`
 ```
-Example `.png` file: [logo.png](<link-to-logo.png>)
+Example `.png` file: [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png)
 
 ---
 
@@ -112,9 +112,9 @@ If you've copied all scripts correctly, you now have your own **hooli-login** po
 - [helper.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Scripts/helper.php)  
 - [index.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Scripts/index.php)  
 - [Portal_Name.ep](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Scripts/Portal-Name.ep)  
-- [logo.png](<link-to-logo.png>)
+- [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png)
 
-Enjoy replicating your own "Hooli-Con" experience!
+### Enjoy replicating your own "Hooli-Con" experience!
 
 ---
 
