@@ -23,14 +23,20 @@ SSH into your Pineapple device and navigate to your portal's directory:
 
 ```bash
 ssh root@172.16.42.1
-cd /root/portals/portalname
+cd /root/portals/
 ```
 
 * SD card storage:
 
 ```bash
 ssh root@172.16.42.1
-cd /sd/portals/portalname
+cd /sd/portals/
+```
+### Create a new directory structure for your portal:  
+
+```bash
+mkdir portalname  
+cd portalname
 ```
 
 ⸻
@@ -107,13 +113,19 @@ Example structure: [index.php](link-to-index.php)
 
 ⸻
 
-## 🖼️ Branding and Assets
+## 🖼 Place Logo or Other Images  
 
-Ensure your branding assets (logos, backgrounds) are placed in:
+Ensure your images are saved as `.png` files.
 
+### From Kali Linux:  
+```bash
+scp background.png logo.png root@172.16.42.1:/path/to/portalname/assets/img/
 ```
-portalname/assets/img/
+### Already on Pineapple:  
+```bash
+cp /current/location/{logo.png,background.png} /path/to/portalname/assets/img/`
 ```
+Example `.png` files: [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png) [background.png]()
 
 ⸻
 
