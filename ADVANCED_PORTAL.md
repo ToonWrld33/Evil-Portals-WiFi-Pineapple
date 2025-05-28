@@ -41,7 +41,7 @@ cd portalname
 
 ⸻
 
-## 📜 Essential Files for Multi-Page Portals
+## 📜 Essential Files for Multi-Page Portals. THese three are a plug-and-play for all future portals.
 
 To create a more sophisticated portal, you'll add additional pages:
 
@@ -52,7 +52,7 @@ Copy `MyPortal.php` to handle and log additional user information across your ad
 ```bash
 nano MyPortal.php
 ```
-Paste contents from:[MyPortal.php](link-to-reset.php)
+Paste contents from:[MyPortal.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/MyPortal.php)
 
 
 ### 📂 `helper.php`
@@ -62,8 +62,16 @@ This file contains functions to dynamically retrieve client details.
 ```bash
 nano helper.php
 ```
-Paste contents from:[helper.php](link-to-reset.php)
+Paste contents from:[helper.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/helper.php)
 
+### 🛠 `Portal-Name.ep`
+
+This file contains functions to link portal name to GUI
+
+```bash
+nano Portal-Name.ep
+```
+Paste contents from:[Portal-Name.ep](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Portal-Name.ep)
 
 ⸻
 
@@ -81,7 +89,7 @@ nano reset.php
  - Last known password
 
 
-Example structure: [reset.php template](link-to-reset.php)
+Example structure: [reset.php template](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/reset.php)
 
 
 ### 📝 Create Account (`create.php`)
@@ -95,7 +103,7 @@ nano create.php
   - Username
   - Create Password
 
-Example structure: [create.php](link-to-create.php)
+Example structure: [create.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/create.php)
 
 ⸻
 
@@ -108,8 +116,18 @@ nano index.php
 # Customize landing page and link advanced pages clearly.
 ```
 
-Example structure: [index.php](link-to-index.php)
+Example structure: [index.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/index.php)
 
+## 🔐 `privacy.php`
+
+This main page directs users to advanced pages (`reset.php` and `create.php`) seamlessly.
+
+```bash
+nano index.php
+# Customize landing page and link advanced pages clearly.
+```
+
+Example structure: [privacy.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/privacy.php)
 
 ⸻
 
@@ -137,5 +155,21 @@ Example `.png` files: [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi
 Fine-tune your advanced portal until satisfied with realism and functionality!
 
 ⸻
+
+## 🎬 Hooli Portal Example (Silicon Valley Inspired)  
+
+If you've copied all scripts correctly, you now have your own **hooli-login** portal, inspired by the TV show *Silicon Valley* from the **"Hooli-Con"** episode (Season 4, Episode 9), featuring realistic WiFi Pineapple captive portal attacks.
+
+### Files needed for hooli-login:  
+- [MyPortal.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/MyPortal.php) 
+- [helper.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/helper.php)
+- [index.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Scripts/MyPortal.php) 
+- [reset.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/reset.php)  
+- [create.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/create.php)  
+- [privacy.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/privacy.php)  
+- [Portal_Name.ep](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Portal-Name.ep)  
+- [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png)
+- [background.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png)
+
 
 🎉 Enjoy your sophisticated captive portals and continue hacking responsibly! 🍍💻✨
