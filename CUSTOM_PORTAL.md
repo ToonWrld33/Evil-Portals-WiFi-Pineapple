@@ -1,4 +1,9 @@
-# 🍍 WiFi Pineapple Evil Portal Creation Guide 🍍
+# 🍍 Create Your Own Evil Portals! 👾  
+
+Want to build custom captive portals from scratch? This detailed guide walks you step-by-step through creating realistic Evil Portals for your WiFi Pineapple, just like the iconic "Hooli-Con" episode from *Silicon Valley*!  
+
+Dive in, get creative, and replicate your own "Hooli-Con" experience! 🛠️💻
+
 
 ## 📌 Prerequisites  
 Ensure you’ve installed and configured the Evil Portal module. For complete instructions, refer to the main [README.md](README.md).
