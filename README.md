@@ -24,7 +24,7 @@ Happy hacking! 🍍👾
 ## 📖 Setup Guides
 
 * 📘 [Hak5 Official Setup Guide](https://docs.hak5.org/wifi-pineapple/setup/setting-up-your-wifi-pineapple)
-* 📙 [ShurkenHacks Pineapple Clone Setup Guide](https://github.com/SHUR1K-N/wifi-mangoapple-resources)
+* 📙 [ShurikenHacks Pineapple Clone Setup Guide](https://github.com/SHUR1K-N/wifi-mangoapple-resources)
 
 📝 **Recommendation:** For Pineapple clones, it's highly recommended to store modules and portals on the SD card.
 
