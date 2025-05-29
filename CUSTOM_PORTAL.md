@@ -127,7 +127,7 @@ If you've copied all scripts correctly, you now have your own **hooli-login** po
 
 Ready to create advanced multi-step portals with password resets, account creation, and more?
 
-## 👉 See [ADVANCED_PORTALS.md](ADVANCED_PORTALS.md) for an in-depth guide.
+## 👉 See [ADVANCED_PORTALS.md](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/ADVANCED_PORTAL.md) for an in-depth guide.
 
 ---
 
