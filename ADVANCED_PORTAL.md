@@ -143,7 +143,7 @@ scp background.png logo.png root@172.16.42.1:/path/to/portalname/assets/img/
 ```bash
 cp /current/location/{logo.png,background.png} /path/to/portalname/assets/img/`
 ```
-Example `.png` files: [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png) [background.png]()
+Example `.png` files: [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/logo.png) [background.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/background.png)
 
 ⸻
 
@@ -155,12 +155,11 @@ Example `.png` files: [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi
 Fine-tune your advanced portal until satisfied with realism and functionality!
 
 ⸻
+🏨 **The Continental Hotel Portal Example (John Wick Inspired)**
 
-## 🎬 Hooli Portal Example (Silicon Valley Inspired)  
+If you've copied all scripts correctly, you now have your own `continental-login` portal, inspired by the iconic "Continental Hotel" from the *John Wick* movie series, allowing you to simulate realistic WiFi Pineapple captive portal scenarios.
 
-If you've copied all scripts correctly, you now have your own **hooli-login** portal, inspired by the TV show *Silicon Valley* from the **"Hooli-Con"** episode (Season 4, Episode 9), featuring realistic WiFi Pineapple captive portal attacks.
-
-### Files needed for hooli-login:  
+### Files needed for continental-login:  
 - [MyPortal.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/MyPortal.php) 
 - [helper.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/helper.php)
 - [index.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Scripts/MyPortal.php) 
@@ -168,8 +167,17 @@ If you've copied all scripts correctly, you now have your own **hooli-login** po
 - [create.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/create.php)  
 - [privacy.php](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/privacy.php)  
 - [Portal_Name.ep](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Portal-Name.ep)  
-- [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png)
-- [background.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/images/logo.png)
+- [logo.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/logo.png)
+- [background.png](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/background.png)
 
 
-🎉 Enjoy your sophisticated captive portals and continue hacking responsibly! 🍍💻✨
+---
+
+### Examples of Captive Portal Pages:
+
+* [**Login Page Example**](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Example%20Images/Portal_Example.png)
+* [**Reset Page Example**](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Example%20Images/Rest_Example.png)
+* [**Create Account Page Example**](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Example%20Images/Create_Exapmple.png)
+* [**Privacy Policy Page Example**](https://github.com/ToonWrld33/Evil-Portals-WiFi-Pineapple/blob/main/Advanced%20Scripts/Example%20Images/Privacy_Example.png)
+
+🎉 Enjoy creating your very own "Continental Hotel" experience! 🏨🍍
